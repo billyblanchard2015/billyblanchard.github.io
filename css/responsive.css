@@ -1,0 +1,101 @@
+@media screen and (min-width: 480px){
+  /***********************
+TWO COLUMN LAYOUT
+************************/
+  
+  #primary{
+    width: 50%;
+    float: left;
+}
+  
+  #secondary{
+    width: 40%;
+    float: right;
+  }
+  
+  
+  /***********************
+3 * 5 = 15
+100% - 15% = 85%
+85 / 3 = 28.3333333333
+************************/
+  
+  
+  
+  /***********************
+PAGE: PORTFOLIO -- HOME_PAGE 
+************************/
+  .caption {
+        width:100%;
+        bottom: .3rem;
+        position: absolute;
+        background:#000;
+        background: -webkit-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: -moz-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: -o-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        background: linear-gradient(to top, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+	.thumbnail {
+        border: 0 none;
+        box-shadow: none;
+        margin:0;
+        padding:0;
+    }
+
+    .caption h4 {
+        color: #fff;
+        -webkit-font-smoothing: antialiased;
+    }
+ #gallery li{
+    width: 28.3333%;
+     }
+  
+  #gallery li:nth-child(4n){
+    clear: left;
+  }
+  
+ /***********************
+PAGE: ABOUT
+************************/
+  
+  .profile-photo{
+    float: left;
+    margin: 0 5% 80px 0;
+  }
+}
+
+@media screen and(min-width:660px){
+  
+ /***********************
+PAGE: HEADER
+************************/
+  
+  nav{
+   background:none;
+   float: right;
+   font-size: 1.125em;
+   margin-right: 5%;
+   text-align:right;
+   width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+    }
+  
+  h1{
+   font-size: 2.5em; 
+  }
+  
+  h2{
+   font-size: 0.825em; 
+   margin-bottom: 20px;
+  }
+  header{
+   border-bottom: 5px solid #599a68; 
+    margin-bottom: 60px;
+  }
+}
