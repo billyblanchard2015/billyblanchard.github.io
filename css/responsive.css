@@ -34,7 +34,7 @@ PAGE: PORTFOLIO -- HOME_PAGE
 	   top: auto;
     bottom: 0;
         width:70%;
-        bottom: .1rem;
+        
         position: absolute;
         background:none;
        /* background: -webkit-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -67,7 +67,7 @@ PAGE: ABOUT
 ************************/
   
   .profile-photo{
-    float: center;
+    float: left;
     margin: 0 5% 80px 0;
   }
 }
