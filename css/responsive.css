@@ -31,6 +31,8 @@ padding-bottom: 30px;
 PAGE: PORTFOLIO -- HOME_PAGE 
 ************************/
   .carousel-caption {
+	   top: 0;
+    bottom: auto;
         width:70%;
         bottom: .1rem;
         position: absolute;
