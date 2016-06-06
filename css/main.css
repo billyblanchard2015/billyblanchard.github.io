@@ -42,6 +42,8 @@ header{
 }
 
 h1{
+      background-image: url('../images/ucf_log.jpg');
+
   font-family:'Changa One', sans-serif;
     text-align: center;
 
@@ -53,7 +55,12 @@ h1{
 
 
 h2{
-	background-color: black;
+	background-color: none;
+ background-image: url('../images/ucf_log.jpg');
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+  /*  padding-top: 40px*/
+
 	color: gold;
   font-size: 0.75em;
   margin: -5px 0 0;
@@ -144,7 +151,7 @@ PAGE: ABOUT
 .profile-photo{
   display:block;
   max-width: 150px;
-  margin:0 auto 30px;
+  margin:0 auto 15px;
   border-radius: 100%;
   }
 
@@ -189,10 +196,12 @@ body{
   color:#999;
 }
 
-/* green header*/
+/* black header*/
 header{
   background: black;
-  border-color: #599a68;
+  /* background-image: url('../images/ucf_log.jpg');*/
+
+  /*border-color: #599a68;*/
   
  }
 
@@ -211,6 +220,7 @@ h1,h2{
   font-weight: 900;
   margin: 0.5em 0 2.5em;
 }	*/
+
 /*links */
 a {
   color:#6ab47b;
