@@ -30,18 +30,9 @@ padding-bottom: 30px;
   /***********************
 PAGE: PORTFOLIO -- HOME_PAGE 
 ************************/
-  .carousel-caption {
-	   top: auto;
-    bottom: 0;
-        width:70%;
-        
-        position: absolute;
-        background:none;
-       /* background: -webkit-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-        background: -moz-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-        background: -o-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
-  }
-      /*  background: linear-gradient(to top, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+  .carousel-caption p{
+	 color: gold;
+   }
     }
 	.thumbnail {
         border: 0 none;
@@ -72,7 +63,7 @@ PAGE: ABOUT
   }
 }
 
-@media screen and(min-width:660px){
+@media screen and(max-width:660px){
   
  /***********************
 PAGE: HEADER
@@ -95,6 +86,7 @@ PAGE: HEADER
     }
   
   h1{
+	  color:cyan;
    font-size: 2.5em; 
   }
   
@@ -106,4 +98,9 @@ PAGE: HEADER
    border-bottom: 5px solid #599a68; 
     margin-bottom: 60px;
   }
+}
+@media screen and (min-width:660px) {
+    body {
+        background-color: cyan;
+    }
 }
